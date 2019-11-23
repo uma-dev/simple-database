@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Rap App</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+    <meta name="description" content="">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="product.css" rel="stylesheet">
+  </head>
+  <body>
+
+      
+<div class="pos-f-t">
+  <div class="collapse" id="navbarToggleExternalContent">
+    <div class=" p-4", style="background-color:#3d7e43" >
+        <a class="navbar-brand" href="mobile.html">
+            <img src="images/logo.png" width="50" height="50" class="d-inline-block align-top" alt="" href="www.google.com"> 
+        </a> 
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                Sesión
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Salir</a>
+            </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link" href="#" style="color: white;">Tienda <span class="sr-only">(current)</span></a>
+        </li>
+    </div>
+  </div>
+  <nav class="navbar navbar-dark"  style="background-color:#2d5a31;">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+</div>
+      
+      
+      
+       <div class="container">
+  <div class="py-5 text-center">
+    
+    <h3>Pagar ahora</h3>
+    <p class="lead">Revisa tu pedido, llena los campos y nosotros nos encargamos del resto :)</p>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4 order-md-2 mb-4">
+      <h4 class="d-flex justify-content-between align-items-center mb-3">
+        <span class="text-muted">Carrito de compras</span>
+        <span class="badge badge-secondary badge-pill">2</span>
+      </h4>
+      <ul class="list-group mb-3">
+        
+        <li class="list-group-item d-flex justify-content-between lh-condensed">
+          <div>
+            <h6 class="my-0">Pase Golden</h6>
+            <small class="text-muted">Fila H, asiento 67</small>
+          </div>
+          <span class="text-muted">$300</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between lh-condensed">
+          <div>
+            <h6 class="my-0">Sticker</h6>
+            <small class="text-muted">Animated cool microphone</small>
+          </div>
+          <span class="text-muted">$19</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between bg-light">
+          <div class="text-success">
+            <h6 class="my-0">Código de descuento</h6>
+            <small>TEMASSELECTOS</small>
+          </div>
+          <span class="text-success">-$50</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between">
+          <span>Total (MXN)</span>
+          <strong>$269</strong>
+        </li>
+      </ul>
+
+      <form class="card p-2">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Cupón">
+          <div class="input-group-append">
+            <button type="submit" class="btn btn-secondary">Validar</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="col-md-8 order-md-1">
+      <h4 class="mb-3">Dirección de facturación</h4>
+      <form class="needs-validation" novalidate>
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label for="firstName">Nombre(s)</label>
+            <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+            <div class="invalid-feedback">
+              Es necesasrio que ingreses tu nombre completo
+            </div>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="lastName">Apellidos</label>
+            <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+            <div class="invalid-feedback">
+              Revisa que tus apellidos sean correctos
+            </div>
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="username">Usuario</label>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text">@</span>
+            </div>
+            <input type="text" class="form-control" id="username" placeholder="Identificador" required>
+            <div class="invalid-feedback" style="width: 100%;">
+              Es necesario que ingreses tu nombre de usuario.
+            </div>
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="email">Correo electrónico<span class="text-muted">(Opcional)</span></label>
+          <input type="email" class="form-control" id="email" placeholder="usurio123@ejemplo.com">
+          <div class="invalid-feedback">
+            Ups, valida que hayas ingresado correctamente tu  correo electrónico.
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="address">Dirección</label>
+          <input type="text" class="form-control" id="address" placeholder="Calle 12, colonia 34" required>
+          <div class="invalid-feedback">
+            ¡Dinos en dónde te podemos entregar tu pedido!
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="address2">Dirección 2 <span class="text-muted">(Opcional)</span></label>
+          <input type="text" class="form-control" id="address2" placeholder="Departamento o vivienda">
+        </div>
+
+        <div class="row">
+          <div class="col-md-5 mb-3">
+            <label for="country">País</label>
+            <select class="custom-select d-block w-100" id="country" required>
+              <option value="">¡Elegir mi país!</option>
+              <option>México</option>
+            </select>
+            <div class="invalid-feedback">
+              Por favor ingrese un país válido
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="state">Estado</label>
+            <select class="custom-select d-block w-100" id="state" required>
+              <option value="">¡Elegir mi estado!</option>
+              <option>CDMX</option>
+            </select>
+            <div class="invalid-feedback">
+              Por favor ingrese un estado válido
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="zip">Código postal</label>
+            <input type="text" class="form-control" id="zip" placeholder="" required>
+            <div class="invalid-feedback">
+              Código postal requerido
+            </div>
+          </div>
+        </div>
+        <hr class="mb-4">
+        <div class="custom-control custom-checkbox">
+          <input type="checkbox" class="custom-control-input" id="same-address">
+          <label class="custom-control-label" for="same-address">Usar la dirección de facturación como dirección de envío</label>
+        </div>
+        <div class="custom-control custom-checkbox">
+          <input type="checkbox" class="custom-control-input" id="save-info">
+          <label class="custom-control-label" for="save-info">Recordar esto para el futuro</label>
+        </div>
+        <hr class="mb-4">
+
+        <h4 class="mb-3">Pago</h4>
+
+        <div class="d-block my-3">
+          <div class="custom-control custom-radio">
+            <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked required>
+            <label class="custom-control-label" for="credit">Tarjeta de crédito</label>
+          </div>
+          <div class="custom-control custom-radio">
+            <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required>
+            <label class="custom-control-label" for="debit">PayPal</label>
+          </div>
+          <div class="custom-control custom-radio">
+            <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required>
+            <label class="custom-control-label" for="paypal">OXXO</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label for="cc-name">Titular de la tarjeta</label>
+            <input type="text" class="form-control" id="cc-name" placeholder="" required>
+            <small class="text-muted">Nombre completo en plástico</small>
+            <div class="invalid-feedback">
+              Se requiere del titular de la tarjeta
+            </div>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="cc-number">Tarjeta de crédito</label>
+            <input type="text" class="form-control" id="cc-number" placeholder="" required>
+            <div class="invalid-feedback">
+              Se requiere de un número de tarjeta
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 mb-3">
+            <label for="cc-expiration">Fecha de expiración</label>
+            <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
+            <div class="invalid-feedback">
+              Fecha de expiración requerida
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="cc-cvv">CVV</label>
+            <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+            <div class="invalid-feedback">
+              Código de seguridad requerido
+            </div>
+          </div>
+        </div>
+        <hr class="mb-4">
+        <button class="btn btn-primary btn-lg btn-block" type="submit" >Pagar y regresar a tienda</button>
+      </form>
+    </div>
+  </div>
+      </div>          
+      
+      
+
+  <footer class="my-5 pt-5 text-muted text-center text-small">
+    <p class="mb-1">&copy; 2017-2019 Battle King</p>
+    <ul class="list-inline">
+      <li class="list-inline-item"><a href="#">Aviso de privacidad</a></li>
+      <li class="list-inline-item"><a href="#">Términos</a></li>
+      <li class="list-inline-item"><a href="#">Contacto</a></li>
+    </ul>
+  </footer>
+         
+           
+</body>
+</html>

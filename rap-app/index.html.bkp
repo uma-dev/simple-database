@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Rap App</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>  
+    
+    
+    
+<div class="pos-f-t">
+  <div class="collapse" id="navbarToggleExternalContent">
+    <div class=" p-4" style="background-color:#3d7e43">
+        <a class="navbar-brand" href="mobile.html">
+            <img src="images/logo.png" width="50" height="50" class="d-inline-block align-top" alt="" href="www.google.com"> 
+        </a> 
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                Sesión
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Salir</a>
+            </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link" href="tienda.html" style="color: white;">Tienda <span class="sr-only">(current)</span></a>
+        </li>
+    </div>
+  </div>
+  <nav class="navbar navbar-dark"  style="background-color:#2d5a31;">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+</div>
+    
+    
+    <div class="row">    
+        <div class="p-3 col-12">    
+            <h3 style="text-align:center;" > Lugar</h3>    
+        </div>
+        
+        <div class="col-12">   
+        <div id="carouselExampleFade" class="p-3 carousel slide carousel-fade" data-ride="carousel"  style=" margin:  auto">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/1_a.jpg" class="d-block " alt="..." id="imagen1" >
+                </div>
+                <div class="carousel-item">
+                  <img src="images/2_a.jpg" class="d-block" alt="..."  id="imagen2" >
+                </div>
+                <div class="carousel-item">
+                  <img src="images/3_a.jpg" class="d-block" alt="..."  id="imagen3" >
+                </div>
+            </div>
+        </div>    
+            <h5 style="text-align:center;" > Aire Libre</h5>    
+        </div>  
+        
+        <div class="col-12">   
+        <div id="carouselExampleFade" class="p-3 carousel slide carousel-fade" data-ride="carousel"  style=" margin:  auto">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/1_b.jpg" class="d-block " alt="..." id="imagen1" >
+                </div>
+                <div class="carousel-item">
+                  <img src="images/2_b.jpg" class="d-block" alt="..."  id="imagen2" >
+                </div>
+                <div class="carousel-item">
+                  <img src="images/3_b.jpg" class="d-block" alt="..."  id="imagen3" >
+                </div>
+            </div>
+        </div>    
+            <h5 style="text-align:center;" > Espacio cerrado</h5>    
+        </div>  
+
+        
+        
+        
+        <div class="col-9">      </div>
+        <div class="col-3">     
+            <a href="start_page_2.html" class="btn btn-primary btn-lg " tabindex="-1" role="button" aria-disabled="true" style="background-color:#2d5a31;">
+                →
+            </a>  
+        </div>    
+    </div>
+
+   <footer class="my-5 pt-5 text-muted text-center text-small">
+    <p class="mb-1">&copy; 2017-2019 Battle King</p>
+    <ul class="list-inline">
+      <li class="list-inline-item"><a href="#">Aviso de privacidad</a></li>
+      <li class="list-inline-item"><a href="#">Términos</a></li>
+      <li class="list-inline-item"><a href="#">Contacto</a></li>
+    </ul>
+  </footer>    
+    
+</body>
+</html>
